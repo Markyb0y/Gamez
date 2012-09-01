@@ -115,7 +115,6 @@ class WebRoot:
                     </div>
                 </div>
             </div>
-            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
             <div id="container">"""
         db_result = GetRequestedGames(filter)
         if(db_result == ''):
@@ -146,6 +145,7 @@ class WebRoot:
              """
         html = html + """
             </div>
+            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
           </body>
         </html>
         
@@ -235,7 +235,6 @@ class WebRoot:
                     </div>
                 </div>
             </div>
-            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
             <div id="container">"""
         db_result = GetGameDataFromTerm(term,system)
         if(db_result == ''):
@@ -265,6 +264,7 @@ class WebRoot:
              """
         html = html + """
             </div>
+            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
           </body>
         </html>
         
@@ -492,7 +492,6 @@ class WebRoot:
                     </div>
                 </div>
             </div>
-            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
             <div id="tabs">
 		<ul>
 			<li><a href="#gamez-tab">Gamez</a></li>
@@ -1240,12 +1239,7 @@ class WebRoot:
 			<button style="border:0; margin:0; padding:0;clear:both;margin-left:250px;width:125px;height:31px;background:#666666 url(img/button.png) no-repeat;text-align:center;line-height:31px;color:#FFFFFF;font-size:11px;font-weight:bold;" type="submit">Save Settings</button>
 		</div>	
 		</form>
-                
-                
-
-
-
-
+			<div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
           </body>
         </html>
         
@@ -1336,7 +1330,6 @@ class WebRoot:
                     </div>
                 </div>
             </div>
-            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
             <div id="container">"""
         db_result = GetLog()
         if(db_result == ''):
@@ -1362,6 +1355,7 @@ class WebRoot:
              """
         html = html + """
             </div>
+            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
           </body>
         </html>
         
@@ -1452,7 +1446,6 @@ class WebRoot:
                     </div>
                 </div>
             </div>
-            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
             <div id="container">"""
         db_result = GetUpcomingGames()
         if(db_result == ''):
@@ -1478,6 +1471,7 @@ class WebRoot:
              """
         html = html + """
             </div>
+            <div style="visibility:hidden"><a href="http://apycom.com/">jQuery Menu by Apycom</a></div>
           </body>
         </html>
         
