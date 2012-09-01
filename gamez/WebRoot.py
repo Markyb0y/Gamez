@@ -70,38 +70,21 @@ class WebRoot:
         html = html + """
             <div id="menu">
                 <ul class="menu">
+                <li class="parent">
                     <a href="/"><img src="images/gamezlogo.png" height="41" alt="Gamez"></a>
-                     <li class="parent">
-                        <a href="/">
-                            Home
-                        </a>
-                        <ul><li><a href="/?filter=Wanted">Wanted Games</a></li><li><a href="/?filter=Snatched">Snatched Games</a></li><li><a href="/?filter=Downloaded">Downloaded Games</a></li></ul>
-                    </li>
-                    <li class="parent">
-                        <a href="/settings">
-                            Settings
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/log">
-                            Log
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/updategamelist">
-                            Update Game List
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/comingsoon">
-                            Upcoming Releases
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/shutdown"><img src="/css/datatables_images/shutdown.png" alt="OFF">
-                        </a>
-                        <ul><li><a href="/shutdown">Shutdown</a></li><li><a href="/reboot">Reboot</a></li></ul>
-                    </li>
+                    <ul><li><a href="/?filter=Wanted">Wanted Games</a></li><li><a href="/?filter=Snatched">Snatched Games</a></li><li><a href="/?filter=Downloaded">Downloaded Games</a></li></ul>
+                </li>
+                <li class="parent">
+                    <a href="/comingsoon">
+                        Upcoming Releases
+                    </a>
+                </li>
+                <li class="parent">
+                    <a href="/settings">
+                        Settings
+                    </a>
+                    <ul><li><a href="/updategamelist">Update Game List</a></li><li><a href="/log">View Logfile</a></li><li><a href="/reboot">Reboot</a></li><li><a href="/shutdown">Shutdown</a></li></ul>
+                </li>
                 </ul>
                 <div style="text-align:right;margin-right:20px">
                     <div class=ui-widget>
@@ -207,32 +190,21 @@ class WebRoot:
           <body id="dt_example">
             <div id="menu">
                 <ul class="menu">
+                <li class="parent">
                     <a href="/"><img src="images/gamezlogo.png" height="41" alt="Gamez"></a>
-                    <li class="parent">
-                        <a href="/">
-                            Home
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/settings">
-                            Settings
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/log">
-                            Log
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/updategamelist">
-                            Update Game List
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/comingsoon">
-                            Upcoming Releases
-                        </a>
-                    </li>                    
+                    <ul><li><a href="/?filter=Wanted">Wanted Games</a></li><li><a href="/?filter=Snatched">Snatched Games</a></li><li><a href="/?filter=Downloaded">Downloaded Games</a></li></ul>
+                </li>
+                <li class="parent">
+                    <a href="/comingsoon">
+                        Upcoming Releases
+                    </a>
+                </li>
+                <li class="parent">
+                    <a href="/settings">
+                        Settings
+                    </a>
+                    <ul><li><a href="/updategamelist">Update Game List</a></li><li><a href="/log">View Logfile</a></li><li><a href="/reboot">Reboot</a></li><li><a href="/shutdown">Shutdown</a></li></ul>
+                </li>
                 </ul>
                <div style="text-align:right;margin-right:20px">
                     <div class=ui-widget>
@@ -475,32 +447,21 @@ class WebRoot:
           <body id="dt_example">
             <div id="menu">
                 <ul class="menu">
+                <li class="parent">
                     <a href="/"><img src="images/gamezlogo.png" height="41" alt="Gamez"></a>
-                    <li class="parent">
-                        <a href="/">
-                            Home
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/settings">
-                            Settings
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/log">
-                            Log
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/updategamelist">
-                            Update Game List
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/comingsoon">
-                            Upcoming Releases
-                        </a>
-                    </li>                    
+                    <ul><li><a href="/?filter=Wanted">Wanted Games</a></li><li><a href="/?filter=Snatched">Snatched Games</a></li><li><a href="/?filter=Downloaded">Downloaded Games</a></li></ul>
+                </li>
+                <li class="parent">
+                    <a href="/comingsoon">
+                        Upcoming Releases
+                    </a>
+                </li>
+                <li class="parent">
+                    <a href="/settings">
+                        Settings
+                    </a>
+                    <ul><li><a href="/updategamelist">Update Game List</a></li><li><a href="/log">View Logfile</a></li><li><a href="/reboot">Reboot</a></li><li><a href="/shutdown">Shutdown</a></li></ul>
+                </li>
                 </ul>
                 <div style="text-align:right;margin-right:20px">
                     <div class=ui-widget>
@@ -1330,32 +1291,21 @@ class WebRoot:
         html = html + """
             <div id="menu">
                 <ul class="menu">
+                <li class="parent">
                     <a href="/"><img src="images/gamezlogo.png" height="41" alt="Gamez"></a>
-                    <li class="parent">
-                        <a href="/">
-                            Home
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/settings">
-                            Settings
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/log">
-                            Log
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/updategamelist">
-                            Update Game List
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/comingsoon">
-                            Upcoming Releases
-                        </a>
-                    </li>                    
+                    <ul><li><a href="/?filter=Wanted">Wanted Games</a></li><li><a href="/?filter=Snatched">Snatched Games</a></li><li><a href="/?filter=Downloaded">Downloaded Games</a></li></ul>
+                </li>
+                <li class="parent">
+                    <a href="/comingsoon">
+                        Upcoming Releases
+                    </a>
+                </li>
+                <li class="parent">
+                    <a href="/settings">
+                        Settings
+                    </a>
+                    <ul><li><a href="/updategamelist">Update Game List</a></li><li><a href="/log">View Logfile</a></li><li><a href="/reboot">Reboot</a></li><li><a href="/shutdown">Shutdown</a></li></ul>
+                </li>
                 </ul>
                 <div style="text-align:right;margin-right:20px">
                     <div class=ui-widget>
@@ -1457,32 +1407,21 @@ class WebRoot:
         html = html + """
             <div id="menu">
                 <ul class="menu">
+                <li class="parent">
                     <a href="/"><img src="images/gamezlogo.png" height="41" alt="Gamez"></a>
-                    <li class="parent">
-                        <a href="/">
-                            Home
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/settings">
-                            Settings
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/log">
-                            Log
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/updategamelist">
-                            Update Game List
-                        </a>
-                    </li>
-                    <li class="parent">
-                        <a href="/comingsoon">
-                            Upcoming Releases
-                        </a>
-                    </li>                    
+                    <ul><li><a href="/?filter=Wanted">Wanted Games</a></li><li><a href="/?filter=Snatched">Snatched Games</a></li><li><a href="/?filter=Downloaded">Downloaded Games</a></li></ul>
+                </li>
+                <li class="parent">
+                    <a href="/comingsoon">
+                        Upcoming Releases
+                    </a>
+                </li>
+                <li class="parent">
+                    <a href="/settings">
+                        Settings
+                    </a>
+                    <ul><li><a href="/updategamelist">Update Game List</a></li><li><a href="/log">View Logfile</a></li><li><a href="/reboot">Reboot</a></li><li><a href="/shutdown">Shutdown</a></li></ul>
+                </li>
                 </ul>
                 <div style="text-align:right;margin-right:20px">
                     <div class=ui-widget>
